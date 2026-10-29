@@ -1,0 +1,3 @@
+-r requirements.txt
+# Testing only (not needed on the cloud)
+pytest>=8.0

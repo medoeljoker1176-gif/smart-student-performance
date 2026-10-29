@@ -1,0 +1,4 @@
+# Used by the container image deployed to Google Cloud Run.
+-r requirements.txt
+# Durable, shared prediction history (HISTORY_BACKEND=firestore). Not needed for local runs.
+google-cloud-firestore>=2.16,<3

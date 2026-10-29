@@ -1,0 +1,17 @@
+# Streamlit configuration for the Smart Student Performance app.
+# Read automatically when you run `python -m streamlit run app.py` from the project folder.
+
+[theme]
+base = "light"
+primaryColor = "#0A9BC4"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EAF4FB"
+textColor = "#0B2C5E"
+font = "sans serif"
+
+[server]
+# Upload limit in MB for st.file_uploader (the Batch page also checks the size itself).
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false

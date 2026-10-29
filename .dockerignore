@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+tests/
+data/prediction_history.csv
+.streamlit/secrets.toml
+data/raw/
+docs/
+notebooks/
+.github/
+reports/*.png
+reports/uci/*.png
+PRESENTATION_SLIDES.md
+loadtest/

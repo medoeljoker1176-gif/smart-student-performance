@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# local prediction history (may contain student IDs)
+data/prediction_history.csv
+
+# secrets (passwords / hashes) must never be committed
+.streamlit/secrets.toml
+data/raw/
